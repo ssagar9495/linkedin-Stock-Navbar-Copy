@@ -1,0 +1,122 @@
+///////Nav BAR//////////
+
+.navBarContainer {
+  background-color: white !important;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 120px;
+  padding-left: 120px;
+  display: flex;
+  text-align: start;
+  height: 50px;
+  display: flex;
+  position: inherit;
+  z-index: 13001;
+}
+
+.navBarLeftContainer {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.navBarRightContainer {
+  width: 60%;
+  display: flex;
+}
+
+.search {
+  height: 36px;
+  background-color: rgb(231, 233, 254);
+  border: none;
+  border-radius: 5px;
+  width: 36%;
+  font-weight: 400 !important;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  padding-left: 37px;
+  font-size: 19px;
+
+  &:focus-visible {
+    width: 70%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+  }
+}
+
+.iconContainer {
+  display: flex;
+  width: 70%;
+  border-right: 1px solid lightgrey;
+}
+
+.workContainer {
+  display: flex;
+  padding-left: 15px;
+  width: 30%;
+}
+
+.iconBox {
+  display: block;
+  text-align: center;
+  width: 14%;
+  padding: 0px 15px 0px 15px;
+}
+
+.label {
+  font-size: 14px !important;
+  font-weight: 300;
+  cursor: pointer;
+}
+.navIcon {
+  cursor: pointer;
+  font-size: 32px !important;
+  margin-bottom: -3px !important;
+  color: dimgrey;
+  &:hover {
+    color: black;
+  }
+}
+.NavBarProfileImage {
+  cursor: pointer;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 1px solid lightgray;
+  object-fit: cover;
+  margin-bottom: -3px !important;
+}
+
+.atag {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.atagBox {
+  width: 50%;
+  padding: 3px 15px 7px 15px;
+  text-align: center;
+}
+.searchIcon {
+  position: absolute;
+  left: 181px !important;
+  font-size: 19px !important;
+  color: lightslategray !important;
+}
+.searchContainer {
+  position: relative;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: end;
+}
+.WorkflexBox {
+  display: flex;
+  justify-content: center;
+}
+
+.dropIcon {
+  font-size: 19px !important;
+}
